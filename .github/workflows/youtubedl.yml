@@ -21,7 +21,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: ghcr.io/jiaqiwang969/openfoam-pawsey-5.x
+          images: ghcr.io/jiaqiwang969/youtube-dl
           tag-sha: true
           tag-edge: false
           tag-latest: true
