@@ -24,7 +24,8 @@ RUN apt-get update -qq\
  && apt-get clean all \
  && rm -r /var/lib/apt/lists/*
 
-
+RUN apt-get install python-pip
+RUN pip install youtube-dl
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
